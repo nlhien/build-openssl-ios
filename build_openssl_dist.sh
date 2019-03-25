@@ -34,7 +34,7 @@ function pack_for ()
   ${DEVROOT}/usr/bin/lipo \
 	${TMP_DIR}/x86_64/lib/lib${LIBNAME}.a \
 	${TMP_DIR}/armv7s/lib/lib${LIBNAME}.a \
-	${TMP_DIR}/arm64/lib/lib${LIBNAME}.a \
+	${TMP_DIR}/arm64e/lib/lib${LIBNAME}.a \
 	-output ${TMP_DIR}/lib/lib${LIBNAME}.a -create
 }
 
